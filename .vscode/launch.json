@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Q1_TP2",
+      "request": "launch",
+      "mainClass": "Q1_TP2",
+      "projectName": "AEDS2_c182258a"
+    },
+    {
+      "type": "java",
+      "name": "Q1_TP2",
+      "request": "launch",
+      "mainClass": "TP2.Q1_TP2",
+      "projectName": "AEDS2_c182258a"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/User/aeds2/AEDS2/TP2",
+      "program": "c:/Users/User/aeds2/AEDS2/TP2/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
